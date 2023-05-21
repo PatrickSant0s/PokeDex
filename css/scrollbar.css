@@ -3,11 +3,13 @@
 ::-webkit-scrollbar-track {
     background: #f1e9e9;
 }
+
 ::-webkit-scrollbar {
     width: 7px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #582965;
     border-radius: 10px;
-    border: 3pc solid #582965 ;
+    border: 3pc solid #582965;
 }

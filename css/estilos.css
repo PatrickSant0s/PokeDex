@@ -1,45 +1,49 @@
-@charset "UTF_8" ;
+@charset "UTF_8";
 
 body {
-        font-family: 'poppins',sans-serif;
-        max-width: 1280px;
-        margin: 0 auto;
-        background-color: gray;
-        color: #333333;
+    font-family: 'poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+    color: #333333;
 }
 
 body.modo-escuro {
-    background-color: black ;
-    color: white;
+    background-color: black;
+    color: black;
 }
-        /* colocar imagem uma do lado da outra*/
+
+/* colocar imagem uma do lado da outra*/
 header {
-        
-       display: flex;
-       justify-content: space-between;
-       padding: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
 }
-nav > a {
-    
+
+nav>a {
+
     height: 10px;
     transition: 0.2s ease-in-out;
     margin: 30px;
     width: 20px;
-    
+
 }
-nav > a:hover {
-    transform: scale(2,0);
-    
+
+nav>a:hover {
+    transform: scale(2, 0);
+
 }
+
 header .logo {
-            height: 30px;
+    height: 30px;
 }
 
 header .logo,
 header .imagem-botao {
     height: 30px;
     transition: 0.2s ease-in-out;
-    
+
 }
 
 header #botao-alterar-tema {
@@ -49,12 +53,13 @@ header #botao-alterar-tema {
 }
 
 
-header .logo:hover, header .imagem-botao:hover {
+header .logo:hover,
+header .imagem-botao:hover {
     transform: scale(1.10);
 }
 
 main {
-    
+
     padding: 25px;
 }
 
@@ -65,6 +70,7 @@ main {
     gap: 30px;
     justify-content: center;
 }
+
 .cartao-pokemon {
     background-color: #eee5e5;
     width: 200px;
@@ -75,7 +81,7 @@ main {
     gap: 15px;
     border-radius: 15px;
     transition: 0.2s ease-in-out;
-    
+
 }
 
 .cartao-pokemon:hover {
@@ -84,69 +90,77 @@ main {
     transform: scale(1.10);
 }
 
-.modo-escuro .cartao-Pokemon{
+.modo-escuro .cartao-Pokemon {
     background-color: #a8a8a8;
     color: black;
 
 }
+
 .informacoes {
     padding: 5px;
     display: flex;
     justify-content: space-between;
     border: 1px solid #333333;
     border-radius: 10px;
-    text-transform: uppercase ;
+    text-transform: uppercase;
     font-size: 17px;
-   
+
 }
+
 .gif {
     width: 90px;
     height: 90px;
 }
-.tipos
-     {
-        display: flex;
-        gap: 10px;
-        padding: 8px;
-        
-        border-radius: 10px;
-     }
+
+.tipos {
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+
+    border-radius: 10px;
+}
+
 .Grama {
     background-color: #7ac74c;
     border-radius: 10px;
     padding: 5px;
 }
+
 .Veneno {
     background-color: #df67ddfb;
     border-radius: 10px;
     padding: 8px;
 }
+
 .fogo {
-    background-color: #ee8130 ;
+    background-color: #ee8130;
     border-radius: 10px;
     padding: 8px;
 }
 
 
-.Inseto 
-{   background-color: #a6b91a;
+.Inseto {
+    background-color: #a6b91a;
     border-radius: 10px;
     padding: 8px;
 
 }
+
 .descricao {
     max-height: 100px;
     overflow-y: scroll;
     font-size: 14px;
     padding-right: 10px;
 }
+
 .elemento {
     height: 70px;
-  
+
     background: none;
     border: none;
     cursor: pointer;
 }
+
 .agua {
     background-color: rgb(11, 82, 235);
     border-radius: 10px;
